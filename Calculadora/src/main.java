@@ -14,6 +14,13 @@ public class main {
       cal.raiz_cuadrada(cal.get_n2());
       cal.resta();
       cal.multiplicacion();
+      cal.division();
+      cal.sen(cal.get_n1());
+      cal.sen(cal.get_n2());
+      cal.cos(cal.get_n1());
+      cal.cos(cal.get_n2());
+      cal.tg(cal.get_n1());
+      cal.tg(cal.get_n2());
     		  
 	}
 

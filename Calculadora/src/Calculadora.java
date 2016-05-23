@@ -42,7 +42,27 @@ public class Calculadora {
 	}
 	public void multiplicacion ( ){
 		float resul=this.n1*this.n2;
-		JOptionPane.showMessageDialog(null,  "LA RESTA ES: " +Float.toString(resul));
+		JOptionPane.showMessageDialog(null,  "LA MULTIPLICACION ES: " +Float.toString(resul));
+		
+	}
+	public void division ( ){
+		float resul=this.n1/this.n2;
+		JOptionPane.showMessageDialog(null,  "LA DIVISION ES: " +Float.toString(resul));
+		
+	}
+	public void sen ( ){
+		float resul=(float) Math.sin(num);
+		JOptionPane.showMessageDialog(null,  "EL SENO ES: " +Float.toString(resul));
+		
+	}
+	public void cos ( ){
+		float resul=this.n1/this.n2;
+		JOptionPane.showMessageDialog(null,  "EL COSENO ES: " +Float.toString(resul));
+		
+	}
+	public void tg( ){
+		float resul=this.n1/this.n2;
+		JOptionPane.showMessageDialog(null,  "LA TANGENTE ES: " +Float.toString(resul));
 		
 	}
 	
