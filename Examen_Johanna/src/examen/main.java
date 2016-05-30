@@ -12,6 +12,7 @@ public class main {
 
 		cad.mayuscula();
 		
+		cad=null;
 	    System.gc();
 	}
 	

@@ -19,7 +19,9 @@ public void setcad(String cad){
 	 int aux = cad.length(); 
 	 
 	 if(aux < 3){
-		 cad.toUpperCase(); 
+		  
+		 JOptionPane.showMessageDialog(null,cad.toUpperCase());
+		 
 	 }else{
 		 
 		 
