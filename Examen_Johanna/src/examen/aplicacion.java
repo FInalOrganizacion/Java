@@ -8,8 +8,8 @@ public class aplicacion {
 public String getcad(){
 	return cad;
 }
-public void setcad(){
-	cad=cad;
+public void setcad(String cad){
+	this.cad=cad;
 }
  /*public  aplicacion(String cad){
 	 this.cad=cad;  
@@ -30,7 +30,6 @@ public void setcad(){
  }
  
 
- 
  protected void finalize(){
 	 JOptionPane.showMessageDialog(null, "CERRANDO PROGRAMA", "ATENCION", JOptionPane.WARNING_MESSAGE);
 }
