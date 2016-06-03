@@ -33,7 +33,7 @@ public void setcad(String cad){
  
 
  protected void finalize(){
-	 JOptionPane.showMessageDialog(null, "CERRANDO PROGRAMA", "ATENCION", JOptionPane.WARNING_MESSAGE);
+	 JOptionPane.showMessageDialog(null, "FINALIZAR", "ATENCION", JOptionPane.WARNING_MESSAGE);
 }
 
 }
